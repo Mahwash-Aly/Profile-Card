@@ -5,13 +5,14 @@ body {
   background: url(images/bg-pattern-top.svg) left top no-repeat,
     url(images/bg-pattern-bottom.svg) right top no-repeat;
   background-color: hsl(185, 75%, 39%);
-  background-position: -60% 100%, 170% -60%;
+  background-position: -70% 160%, 170% -60%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
+  height: 100vh;
 }
 
 h2 {
@@ -43,11 +44,9 @@ h4 {
   background-color: white;
   border-radius: 20px;
   width: 380px;
-  height: 440px;
   display: relative;
   justify-content: center;
-  margin-top: 5rem;
-  margin-left: 7rem;
+
 }
 
 .bg-card img {
