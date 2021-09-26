@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  background: url(images/bg-pattern-top.svg) left top no-repeat,
+    url(images/bg-pattern-bottom.svg) right top no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  background-position: -60% 100%, 170% -60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.2rem;
+  color: hsl(229, 23%, 23%);
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  padding-left: 1rem;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+h4 {
+  margin-bottom: 0.2rem;
+  color: hsl(229, 23%, 23%);
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 380px;
+  height: 440px;
+  display: relative;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+
+.bg-card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 380px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.victor {
+  position: relative;
+  bottom: 2.8rem;
+}
+
+.victor img {
+  border-radius: 100%;
+}
+
+.name {
+  position: relative;
+  bottom: 1.1rem;
+}
+
+.profile-stats h4 {
+  display: inline-block;
+  margin-top: 1rem;
+  ;
+}
+
+.profile-stats p {
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.stats {
+  display: inline-block;
+  padding: 0.7rem;
+  margin: 0 0.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
